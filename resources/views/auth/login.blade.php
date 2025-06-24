@@ -1,7 +1,11 @@
 <x-guest-layout>
     <!-- Session Status -->
-    <x-auth-session-status class="mb-4" :status="session('status')" />
+    <x-auth-session-status class="mb-4 border-[#AEB4BC]" :status="session('status')" />
 
+    <div class="flex justify-center">
+        <x-application-logo class="" />
+    </div>
+    
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
@@ -20,7 +24,6 @@
                             type="password"
                             name="password"
                             required autocomplete="current-password" />
-
             <x-input-error :messages="$errors->get('password')" class="mt-2" />
         </div>
 
@@ -32,16 +35,19 @@
             </label>
         </div>
 
-        <div class="flex items-center justify-end mt-4">
+        <div class="flex justify-center mt-4">
+            <x-primary-button class="ms-1">
+                {{ __('Acessar sua conta') }}
+            </x-primary-button>
+        </div>
+
+        <div class="flex justify-center justify-end mt-1">
             @if (Route::has('password.request'))
                 <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
                     {{ __('Esqueceu sua senha?') }}
                 </a>
             @endif
 
-            <x-primary-button class="ms-3">
-                {{ __('Acessar sua conta') }}
-            </x-primary-button>
         </div>
     </form>
 </x-guest-layout>
