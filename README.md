@@ -1,12 +1,35 @@
-*** PROJETO INTEGRADOR - 1º SEMESTRE 2025 ***
-FACULDADE DE TECNOLOGIA DR. ARCHIMEDES LAMMOGLIA
-DESENVOLVIMENTO WEB II = PROFº FELIPE ESPIRITO SANTO
+<!-- Logo do Projeto -->
+<p align="center">
+  <img src="images/LOGO TRANSPARENTE.png" alt="Logo" width="200">
+</p>
 
-FINDENHUB
+<h1 align="center">FINDENHUB</h1>
 
-ALUNOS:
-JÔNATAS DA SILVA PEREIRA – R.A.: 1051392421017
-REINALDO GOMES DE SOUZA – R.A.: 1051392421007
-RUYLIS BIALTA CATELAN – R.A.: 1051392421011
-VERÔNICA MARQUES PALEVICIUS – R.A.: 1051392421008
+<p align="center"><strong>PROJETO INTEGRADOR - 1º SEMESTRE 2025</strong><br>
+Faculdade de Tecnologia Dr. Archimedes Lammoglia<br>
+Disciplina: Desenvolvimento Web II – Prof. Felipe Espírito Santo</p>
 
+---
+
+## 📌 Sobre o Projeto
+
+O **Findenhub** é uma plataforma inteligente para organização de eventos, como parte do Projeto Integrador do 1º semestre de 2025. O projeto tem como objetivo aplicar os conhecimentos adquiridos em PHP, Laravel, HTML, CSS e desenvolvimento de sistemas web para criar uma solução prática e funcional.
+
+---
+
+## 👨‍💻 Equipe Desenvolvedora
+
+Jônatas da Silva Pereira – R.A.: 1051392421017
+
+Reinaldo Gomes de Souza – R.A.: 1051392421007
+
+Ruylis Bialta Catelan – R.A.: 1051392421011
+
+Verônica Marques Palevicius – R.A.: 1051392421008
+
+## 🚀 Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/findenhub.git
+   cd findenhub
