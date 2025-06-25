@@ -28,7 +28,7 @@ Ruylis Bialta Catelan – R.A.: 1051392421011
 Verônica Marques Palevicius – R.A.: 1051392421008
 
 
-## 👨‍💻 Links
+## 🔗 Links
 GitHub: https://github.com/JFicchini/findenhub
 Deploy: 
 
