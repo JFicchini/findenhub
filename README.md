@@ -3,7 +3,6 @@
   <img src="public/images/LOGO TRANSPARENTE.png" alt="Logo" width="200">
 </p>
 
-<h1 align="center">FINDENHUB</h1>
 
 <p align="center"><strong>PROJETO INTEGRADOR - 1º SEMESTRE 2025</strong><br>
 Faculdade de Tecnologia Dr. Archimedes Lammoglia<br>
@@ -26,5 +25,10 @@ Reinaldo Gomes de Souza – R.A.: 1051392421007
 Ruylis Bialta Catelan – R.A.: 1051392421011
 
 Verônica Marques Palevicius – R.A.: 1051392421008
+
+
+## 👨‍💻 Links
+GitHub: https://github.com/JFicchini/findenhub
+Deploy: 
 
 ---
