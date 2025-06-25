@@ -1,6 +1,6 @@
 <!-- Logo do Projeto -->
 <p align="center">
-  <img src="images/LOGO TRANSPARENTE.png" alt="Logo" width="200">
+  <img src="public/images/LOGO TRANSPARENTE.png" alt="Logo" width="200">
 </p>
 
 <h1 align="center">FINDENHUB</h1>
@@ -27,9 +27,4 @@ Ruylis Bialta Catelan – R.A.: 1051392421011
 
 Verônica Marques Palevicius – R.A.: 1051392421008
 
-## 🚀 Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/findenhub.git
-   cd findenhub
+---
