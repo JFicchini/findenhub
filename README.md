@@ -12,13 +12,14 @@ Disciplina: Desenvolvimento Web II – Prof. Felipe Espírito Santo</p>
 
 ## 📌 Sobre o Projeto
 
-O **Findenhub** é uma plataforma inteligente para organização de eventos, como parte do Projeto Integrador do 1º semestre de 2025. O projeto tem como objetivo aplicar os conhecimentos adquiridos em PHP, Laravel, HTML, CSS e desenvolvimento de sistemas web para criar uma solução prática e funcional.
+A **Findenhub** é uma plataforma inteligente para organização de eventos, como parte do Projeto Integrador do 1º semestre de 2025.
+O projeto tem como objetivo aplicar os conhecimentos adquiridos em PHP, Laravel, HTML, CSS e desenvolvimento de sistemas web para criar uma solução prática e funcional.
 
 ---
 
 ## 👨‍💻 Equipe Desenvolvedora
 
-Jônatas da Silva Pereira – R.A.: 1051392421017
+ Jônatas da Silva Pereira – R.A.: 1051392421017
 
 Reinaldo Gomes de Souza – R.A.: 1051392421007
 
