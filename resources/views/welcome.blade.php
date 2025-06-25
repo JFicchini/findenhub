@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
-    <title>FindenHub</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/LOGO_IMG_TRANSPARENTE.png') }}">
+    <title>{{ config( 'app.name', 'FindenHub')}}</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
