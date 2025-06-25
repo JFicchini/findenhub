@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Illuminate\View\View;
+use App\Rules\CpfOuCnpj;
+
 
 class RegisteredUserController extends Controller
 {
@@ -33,11 +35,13 @@ class RegisteredUserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'documento' => ['required', new CpfOuCnpj],
         ]);
 
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
+            'documento' => $request->documento,
             'password' => Hash::make($request->password),
         ]);
 
