@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <link rel="icon" type="image/x-icon" href="{{ asset('images/LOGO_IMG_TRANSPARENTE.png') }}">
-        <title>{{ config( 'app.name', 'FindenHub')}}</title>
+        <title>{{ config('app.name', 'FindenHub') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -31,6 +31,22 @@
             <main>
                 {{ $slot }}
             </main>
+
+            <!-- Footer -->
+            <footer class="bg-[#F4F6F8] text-sm text-center text-[#5A5F66] py-6 mt-8">
+                <div class="max-w-screen-lg mx-auto px-4">
+                    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                        <p>© FindenHub 2025 — Todos os direitos reservados.</p>
+                        <div class="flex gap-6">
+                            <a href="#" class="hover:underline">Sobre nós</a>
+                            <a href="#" class="hover:underline">Termos e privacidade</a>
+                            <a href="#" class="hover:underline">Contato</a>
+                            <a href="#" class="hover:underline">Redes Sociais</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
+
