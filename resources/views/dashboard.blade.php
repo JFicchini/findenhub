@@ -18,12 +18,15 @@
             </form>
         </div>
     </x-slot>
-
+    <!-- Banner - main page-->
     <div class="py-6">
-        <div class="max-w-8xl mx-auto sm:ml-0 sm:mr-0 lg:ml-24 lg:mr-24">
-            <div class="bg-[#F4F6F8] overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-[#1E2A38] text-center">
-                    {{ __("FindenHub - Gestão completa e inteligente para sua empresa!") }}
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-[#F4F6F8] overflow-hidden shadow-sm rounded-lg">
+                <div class="py-12 px-4 sm:py-20 sm:px-8 text-[#1E2A38] text-center">
+                    <div class="flex flex-col items-center justify-center gap-4">
+                        <h1 class="text-3xl sm:text-4xl font-bold">FindenHub</h1>
+                        <p class="text-base sm:text-lg">Gestão completa e inteligente para o seu evento!</p>
+                    </div>
                 </div>
             </div>
         </div>
