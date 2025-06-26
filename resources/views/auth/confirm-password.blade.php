@@ -1,6 +1,6 @@
 <x-guest-layout>
     <div class="mb-4 text-sm text-gray-600">
-        {{ __('Esta é uma area segura do aplicativo. Confirme sua senha antes de continuar.') }}
+        {{ __('Esta é uma área segura do aplicativo. Confirme sua senha antes de continuar.') }}
     </div>
 
     <form method="POST" action="{{ route('password.confirm') }}">
