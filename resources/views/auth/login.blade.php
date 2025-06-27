@@ -6,7 +6,7 @@
         <x-application-logo class="" />
     </div>
     
-    <form method="POST" action="{{ route('login') }}">
+    <form method="POST" action="{{ route('login') }}" class="max-w-md mx-auto w-full px-4">
         @csrf
 
         <!-- Email Address -->

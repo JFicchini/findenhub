@@ -4,7 +4,7 @@
         <x-application-logo class="" />
     </div>
 
-    <form method="POST" action="{{ route('register') }}">
+    <form method="POST" action="{{ route('register') }}" class="max-w-md mx-auto w-full px-4">
         @csrf
 
         <!-- Name -->
