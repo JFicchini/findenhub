@@ -4,14 +4,14 @@
     <div class="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16 w-full">
             <!-- Logo à esquerda -->
-            <div class="flex items-center">
+            <div class="flex items-center pl-2 sm:pl-0">
                 <a href="{{ route('dashboard') }}">
                     <x-logo-visual class="w-14" />
                 </a>
             </div>
 
             <!-- Links de navegação centralizados -->
-            <div class="flex-1 flex justify-center items-center">
+            <div class="flex-1 hidden sm:flex justify-center items-center">
                 <div class="space-x-8 sm:-my-px sm:ms-10 flex text-[#1E2A38] hover:text-gray-500">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Perfil') }}
@@ -86,10 +86,28 @@
     </div>
 
     <!-- Responsive Navigation Menu -->
-    <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
+    <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden w-full bg-[#E6EDF4] border-b border-[#AEB4BC]">
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                {{ __('Painel de controle') }}
+                {{ __('Perfil') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                {{ __('Eventos') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                {{ __('Pedidos') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                {{ __('Financeiro') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                {{ __('Fornecedores') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                {{ __('Avaliações') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                {{ __('Mensagens') }}
             </x-responsive-nav-link>
         </div>
 
@@ -102,7 +120,7 @@
 
             <div class="mt-3 space-y-1">
                 <x-responsive-nav-link :href="route('profile.edit')">
-                    {{ __('Perfil') }}
+                    {{ __('Configurações') }}
                 </x-responsive-nav-link>
 
                 <!-- Authentication -->
